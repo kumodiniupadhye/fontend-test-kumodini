@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  padding: 2rem 4rem;
+}
+
+.nav-list {
+  display: flex;
+  gap: 12px;
+}
+
+.btn {
+  padding: 0.8rem 1.5rem;
+  background-color: blue;
+  border-radius: 8px;
+  color: white;
+}
+
+.section-hero {
+  background-color: blue;
+  color: white;
+}
+.hero {
+  display: flex;
+  width: 100%;
+}
+
+.right-side {
+  width: 50%;
+  padding: 12rem 8rem;
+}
+.primary-header {
+  font-size: 36px;
+  line-height: 1.1;
+  margin-bottom: 12px;
+}
+.app-store-image {
+  margin-top: 36px;
+  display: flex;
+  gap: 20px;
+}
+
+.left-side {
+  width: 50%;
+  margin: 0 48px;
+  padding: 2rem;
+}
+
+.section-2 {
+  padding: 6rem 0;
+}
+
+.main-part {
+  display: flex;
+  width: 100%;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.developers {
+  text-align: center;
+  padding: 0 24px;
+  width: 33.33%;
+}
+.main {
+  margin: 0 9rem;
+  padding: 0 2rem;
+}
+.google-insta {
+  display: flex;
+  gap: 44px;
+}
+
+.google,
+.insta {
+  width: 50%;
+  flex-wrap: wrap;
+}
+
+.section-4 {
+  padding: 6rem 0;
+}
+
+.text {
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.components {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 36px;
+  text-align: center;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 54px;
+}
+
+.footer {
+  display: flex;
+  gap: 44px;
+}
+
+.footer-elements {
+  width: 20%;
+}
+
+.footer-end {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 56px;
+}
